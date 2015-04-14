@@ -34,8 +34,8 @@ B) NÃO// O valor *pta não recebe endereço e sim o valor que *pta aponta
 C) NÃO// Como ptx é do tipo inteiro, só podem ser atribuidos valores inteiros a ele
 D) SIM
 E) NÃO// Um ponteiro não pode receber outro ponteiro e os ponteiros são de tipos diferentes
-F) SIM
-G) SIM
+F) NÃO// Um ponteiro está apontando para um endereço desconhecido da memória.
+G) NÃO// Um ponteiro está apontando para um endereço desconhecido da memória.
 H) SIM
 I) NÂO//Por ser um ponteiro para ponteiro, para acessar tinha que ser *pp
 J) NÂO// Ponteiro não pode apontar para outro ponteiro e são de tipos destintos
