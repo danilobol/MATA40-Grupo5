@@ -1,6 +1,6 @@
 /*
 
-3. Qual é a maneira correta de referenciar ch, assumindo que o endereço de ch foi atribuído ao ponteiro indica? 
+3. Qual Ã© a maneira correta de referenciar ch, assumindo que o endereÃ§o de ch foi atribuÃ­do ao ponteiro indica? 
 
 a)*indica; 
 
@@ -8,7 +8,9 @@ b) int *indica;
 
 c) *indic; 
 
-d) che) *ch;
+d) ch;
+
+e) *ch;
 
 */
 
