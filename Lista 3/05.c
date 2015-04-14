@@ -1,4 +1,4 @@
-/*5. Assumindo que o endereço de num foi atribuído a um ponteiro pnum, quais das seguintes expressões são verdadeiras? 
+/*5. Assumindo que o endereÃ§o de num foi atribuÃ­do a um ponteiro pnum, quais das seguintes expressÃµes sÃ£o verdadeiras? 
 
 a) num == &pnum 
 
@@ -8,6 +8,8 @@ c) pnum == *num
 d) pnum == &num 
 
 */
+a. num == &pnum//falso, pois o valor de num Ã© dieretente do endereÃ§o do ponteiro.
+b. num == *pnum //comparando o valor da variÃ¡vel com o valor apontado.
+c) pnum == *num //falso, pois num nÃ£o Ã© um ponteiro.
+d. pnum == &num //comparando a memÃ³ria de num e a memÃ³ria que o ponteiro aponta
 
-b. num == *pnum //comparando o valor da variável com o valor apontado
-d. pnum == &num //comparando a memória de num e a memória que o ponteiro aponta
