@@ -1,6 +1,6 @@
 /*
 
-11. Se i e j s�o vari�veis inteiras e p e q s�oponteiros para inteiros, quais das seguintes express�es de atribui��o s�o ilegais? 
+11. Se i e j são variáveis inteiras e p e q são ponteiros para inteiros, quais das seguintes expressões de atribuição são ilegais? 
 
 a)p = &i; 
 
@@ -22,9 +22,9 @@ g) i = (*p) ++ +*q;
 
 11)
 A) Verdadeiro
-B) Falso
+B) Falso //por que na sintaxe da linguagem isso só poderia ser feito na declaração do ponteiro
 C) Verdadeiro
-D) Falso
+D) Falso// Por que que os parênteses não são esperados, dando erro de sintaxe.
 E) Verdadeiro
-F) Falso
+F) Falso // Um ponteiro não pode apontar para o endereço de memória do outro do ponteiro
 G) Verdadeiro
