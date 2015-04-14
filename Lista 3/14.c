@@ -1,6 +1,6 @@
 /*
 
-14. Considerando as vari疱eis e ponteiros definidos abaixo; quais s縊 as atribui鋏es permitidas? 
+14. Considerando as variﾃ｡veis e ponteiros definidos abaixo; quais sﾃ｣o as atribuiﾃｧﾃｵes permitidas? 
 int i, *pi, **ppi; 
 float f, *pf, **ppf; 
 
@@ -10,7 +10,7 @@ b) pf = &i;
 
 c) *pf = 5.9; 
 
-d) *ppi = p 
+d) *ppi = &pi 
 
 e) *pf = 10; 
 
@@ -28,13 +28,13 @@ j) **ppi = 100;
 
 14)
 
-A) NﾃO
-B) NﾃO
-C) NﾃO
-D) NﾃO
-E) NﾃO
-F) NﾃO
-G) NﾃO
-H) NﾃO
+A) Nﾃグ // 2 variﾃ｡veis de tipos diferentes nﾃ｣o podem ser iguais.
+B) Nﾃグ // um ponteiro de tipo float nﾃ｣o pode apontar para uma variﾃ｡vel int
+C) Nﾃグ // Um ponteiro estﾃ｡ apontando para um endereﾃｧo desconhecido da memﾃｳria.
+D) Nﾃグ // Um ponteiro nﾃ｣o pode ligar para um endereﾃｧo de memﾃｳria de outro ponteiro
+E) Nﾃグ// Um ponteiro estﾃ｡ apontando para um endereﾃｧo desconhecido da memﾃｳria.
+F) Nﾃグ// 2 variﾃ｡veis de tipos diferentes nﾃ｣o podem ser iguai.
+G) Nﾃグ// Um ponteiro inteiro nﾃ｣o pode receber o endereﾃｧo de memﾃｳria de uma variﾃ｡vel float
+H) Nﾃグ// Um ponteiro estﾃ｡ apontando para um endereﾃｧo desconhecido da memﾃｳria.
 I) SIM
-J) NﾃO
+J) Nﾃグ// Um ponteiro estﾃ｡ apontando para um endereﾃｧo desconhecido da memﾃｳria.
