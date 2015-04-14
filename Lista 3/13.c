@@ -1,6 +1,6 @@
 /*
 
-13. Considerando as vari·veis e ponteiros definidos abaixo; quais s„o as atribuiÁıes permitidas? 
+13. Considerando as vari√°veis e ponteiros definidos abaixo; quais s√£o as atribui√ß√µes permitidas? 
 int x,*ptx, **pp; 
 float a, *pta, **pf; 
 
@@ -30,12 +30,12 @@ j) pf = &pta;
 13)
 
 A) SIM
-B) N√O
-C) N√O
+B) N√ÉO// O valor *pta n√£o recebe endere√ßo e sim o valor que *pta aponta 
+C) N√ÉO// Como ptx √© do tipo inteiro, s√≥ podem ser atribuidos valores inteiros a ele
 D) SIM
-E) N√O
-F) N√O
-G) N√O
+E) N√ÉO// Um ponteiro n√£o pode receber outro ponteiro e os ponteiros s√£o de tipos diferentes
+F) SIM
+G) SIM
 H) SIM
-I) N¬O
-J) N¬O
+I) N√ÇO//Por ser um ponteiro para ponteiro, para acessar tinha que ser *pp
+J) N√ÇO// Ponteiro n√£o pode apontar para outro ponteiro e s√£o de tipos destintos
