@@ -1,20 +1,20 @@
 /*
 
-12. Seja a seguinte seq¸Íncia de instruÁıes em um programa C: 
+12. Seja a seguinte seq√º√™ncia de instru√ß√µes em um programa C: 
 int *pti; 
 int i = 10; 
 pti = &i; 
-Qual afirmativa È falsa? 
+Qual afirmativa √© falsa? 
 
-a)pti armazena o endereÁo de i 
+a)pti armazena o endere√ßo de i 
 
-b) *pti È igual a 10 
+b) *pti √© igual a 10 
 
-c) ao se executar *pti = 20; i passar· a ter o valor 20 
+c) ao se executar *pti = 20; i passar√° a ter o valor 20 
 
-d) ao se alterar o valor de i, *pti ser· modificado 
+d) ao se alterar o valor de i, *pti ser√° modificado 
 
-e) pti È igual a 10 
+e) pti √© igual a 10 
 
 */
 
@@ -23,4 +23,4 @@ a) Verdadeiro
 b) Verdadeiro
 c) Verdadeiro
 d) Verdadeiro
-e) Falso
+e) Falso // pti recebe o endere√ßo de mem√≥ria de p e n√£o o valor de p
