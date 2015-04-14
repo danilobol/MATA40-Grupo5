@@ -1,15 +1,15 @@
 /*
 
-4. Na express„o float *pont; o que È do tipo float? 
+4. Na express√£o float *pont; o que √© do tipo float? 
 
-a) a vari·vel pont. 
+a) a vari√°vel pont. 
 
-b) o endereÁo de pont. 
+b) o endere√ßo de pont. 
 
-c) a vari·vel apontada por pont. 
+c) a vari√°vel apontada por pont. 
 
 d) nenhuma das anteriores.
 
 */
 
-c - a variavel apontada por pont
+c - a variavel apontada por pont.
