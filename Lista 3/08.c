@@ -1,6 +1,6 @@
 /*
 
-8. Assumindo que o endereÁo da vari·vel x foi atribuÌdo a um ponteiro px, escreva umaexpress„o que n„o usa x e divida x
+8. Assumindo que o endere√ßo da vari√°vel x foi atribu√≠do a um ponteiro px, escreva umaexpress√£o que n√£o usa x e divida x
 por 5. 
 
 */
@@ -15,3 +15,4 @@ main(){
 	printf ("%d\n",x);
 
 }
+// Como o ponteiro aponta para a mem√≥ria de X, ao dividir *px por 5 estar√° alterando o valor de X.
