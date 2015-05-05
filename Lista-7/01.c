@@ -2,7 +2,7 @@
 
 a)Função de inicialização. (A função que inicializa uma lista deve criar uma lista vazia, sem nenhum elemento).
 
-Lista* cia_lista(){
+Lista* cria_lista(){
 	Lista* li = (Lista*) malloc(sizeof(Lista)); //Guarda o endereço do primeiro nó da lista
 	if(li != NULL) // Se deu certo preenche o primeiro ponteiro com null
 		*li = NULL;
