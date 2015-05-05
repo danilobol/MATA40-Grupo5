@@ -11,7 +11,7 @@ c)
 	}
 
 	void impressao(struct ponto a){
-		scanf("%f %f",&a.x,&a.y);
+		printf("%f %f",a.x,a.y);
 	}
 d)
 	struct ponto *b;
@@ -20,10 +20,10 @@ e)
 	b=&a;
 f)
 	void leitura1(struct ponto *p){
-		scanf("%f %f",p->x,p->y);
+		scanf("%f %f",&p->x,&p->y);
 	}
 	void impressao1(struct ponto *p){
-		scanf("%f %f",p->x,p->y);
+		printf("%f %f",p->x,p->y);
 	}					
 g)
 	As duas primeiras funções foram passadas por valor e por isso a função scanf não vai armazenar em uma estrutura.
