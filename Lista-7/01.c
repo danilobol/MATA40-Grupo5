@@ -11,14 +11,16 @@ Lista* cria_lista(){
 
 b) Função de inserção (Uma vez criada a lista vazia, podemos inserir novos elementos nela.)
 
-int insere_lista_inicio(Lista* li, struct lista Lista) // passa a lista e os dados que está inserindo na lista
-	if (li == NULL) return 0; // verifica se  alista é valida
-	Elem* no = (Elem*) malloc(sizeof(Elem)); cria um novo elemento para a lista
-	if(no==NULL) return 0; //Verifica se o nó é nulo
-	no->prox = Lista; // Copia os dados para dentro do nó
-	no->prox = (*li); //Diz que o proximo vai receber o primeiro da lista
-	*li = no; //O primeiro passa ser o o nó
-	return 1;
+Lista2* insere (Lista2* l, int v){
+	
+	Lista2* novo = (Lista2*) malloc(sizeof(Lista2));
+	novo->info = v;
+	novo->prox = l;
+	novo->ant = NULL;
+	/* verifica se lista não está vazia */
+	if (l != NULL)
+		l->ant = novo;
+	return novo;
 }
 
 
